@@ -1,9 +1,9 @@
 [![npm](http://img.shields.io/npm/v/bb-class.svg?style=flat-square)](https://www.npmjs.com/package/bb-class)
 ![npm](http://img.shields.io/npm/l/bb-class.svg?style=flat-square)
-[![Dependency Status](https://david-dm.org/aliaksandr-pasynkau/bb-class.gi.svg?style=flat-square)](https://david-dm.org/aliaksandr-pasynkau/bb-class.gi)
-[![devDependency Status](https://david-dm.org/aliaksandr-pasynkau/bb-class.gi/dev-status.svg?style=flat-square)](https://david-dm.org/aliaksandr-pasynkau/bb-class.gi#info=devDependencies)
-[![Build Status](https://travis-ci.org/aliaksandr-pasynkau/bb-class.gi.svg?branch=master&style=flat-square)](https://travis-ci.org/aliaksandr-pasynkau/bb-class.gi)
-[![Coverage Status](https://img.shields.io/coveralls/aliaksandr-pasynkau/bb-class.gi.svg?style=flat-square)](https://coveralls.io/r/aliaksandr-pasynkau/bb-class.gi?branch=master)
+[![Dependency Status](https://david-dm.org/aliaksandr-pasynkau/bb-class.svg?style=flat-square)](https://david-dm.org/aliaksandr-pasynkau/bb-class)
+[![devDependency Status](https://david-dm.org/aliaksandr-pasynkau/bb-class/dev-status.svg?style=flat-square)](https://david-dm.org/aliaksandr-pasynkau/bb-class#info=devDependencies)
+[![Build Status](https://travis-ci.org/aliaksandr-pasynkau/bb-class.svg?branch=master&style=flat-square)](https://travis-ci.org/aliaksandr-pasynkau/bb-class)
+[![Coverage Status](https://img.shields.io/coveralls/aliaksandr-pasynkau/bb-class.svg?style=flat-square)](https://coveralls.io/r/aliaksandr-pasynkau/bb-class?branch=master)
 
 # bb-class
 LightWeight (Backbone like) implementation of class for JS.
@@ -42,7 +42,7 @@ myClassChildInstance instanceof myClassInstance; // true
 
 
 ## Support
-If you have any problems, you cached a bug, or you have any suggestion - please [find an existing issue or create new](https://github.com/aliaksandr-pasynkau/bb-class.gi/issues)
+If you have any problems, you cached a bug, or you have any suggestion - please [find an existing issue or create new](https://github.com/aliaksandr-pasynkau/bb-class/issues)
 
 
 ## Contributing
