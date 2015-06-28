@@ -1,6 +1,6 @@
 {
   "name": "bb-class",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "grunt test"
@@ -9,7 +9,6 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {},
-
   "author": "aliaksandr-pasynkau",
   "repository": {
     "type": "git",
@@ -19,11 +18,8 @@
     "url": "https://github.com/aliaksandr-pasynkau/bb-class/issues"
   },
   "homepage": "https://github.com/aliaksandr-pasynkau/bb-class",
-
   "devDependencies": {
-    
     "grunt-contrib-nodeunit": "^0.4.1",
-    
     "grunt": "^0.4.5",
     "grunt-eslint": "^15.0.0",
     "grunt-contrib-watch": "^0.6.1",
