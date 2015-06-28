@@ -8,7 +8,9 @@
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^3.9.3"
+  },
   "author": "aliaksandr-pasynkau",
   "repository": {
     "type": "git",
