@@ -6,7 +6,7 @@
 [![Coverage Status](https://img.shields.io/coveralls/aliaksandr-pasynkau/bb-class.gi.svg?style=flat-square)](https://coveralls.io/r/aliaksandr-pasynkau/bb-class.gi?branch=master)
 
 # bb-class
-Powerfull nodeJs library
+LightWeight (Backbone like) implementation of class for JS.
 
 ## Getting started 
 
@@ -17,10 +17,26 @@ npm install -g bb-class --save
 
 Finally, use the library:
 ```js
+'use strict';
+
 bbClass = require('bb-class');
+
+var MyClass = bbClass.extend(prototypePropsObject, staticPropsObject);
+var MyClassChild = MyClass.extend(anotherPrototypePropsObject, anotherStaticPropsObject);
+
+var myClassInstance = new MyClass();
+var myClassChildInstance = new MyClassChild();
+
+myClassInstance instanceof myClassInstance; // true
+
+myClassChildInstance instanceof MyClassChild; // true
+
+myClassChildInstance instanceof myClassInstance; // true
 
 // do something helpful
 ```
+
+#### You can read more examples in `test` directory of this repository
 
 ### Enjoy!
 
@@ -34,5 +50,6 @@ If you want to develop this library do not be shy - Do that! [How to contribute 
 
 ### Run tests bb-class
 ```shell
+$ npm i -g grunt-cli
 $ npm test
 ```
