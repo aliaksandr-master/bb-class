@@ -1,0 +1,23 @@
+{
+  "generator-node-lib": {
+    "version": "1.0.0",
+    "travis": true,
+    "coveralls": true,
+    "testEngine": "nodeunit",
+    "license": "MIT",
+    "indentType": "tab",
+    "indentSize": 4,
+    "app": {
+      "name": "bb-class",
+      "varName": "bbClass",
+      "coverageEnvName": "NODE_LIB_BBCLASS_COVERAGE"
+    },
+    "repository": {
+      "raw": "https://github.com/aliaksandr-pasynkau/bb-class.git",
+      "url": "https://github.com/aliaksandr-pasynkau/bb-class",
+      "host": "github.com",
+      "user": "aliaksandr-pasynkau",
+      "name": "bb-class.gi"
+    }
+  }
+}
